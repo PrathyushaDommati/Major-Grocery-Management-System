@@ -1,0 +1,13 @@
+h2{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow:2px 2px 5px rgb(148, 8, 8);
+  color:rgb(9, 66, 9); 
+  padding: 2rem;
+}
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2UVXFUzchVDv9N4BPcQv4w_ddL9VXud8JZg&usqp=CAU");
+}
+.form-group{
+font-size: 20px;
+}

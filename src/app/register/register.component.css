@@ -1,0 +1,20 @@
+.form-group{
+    font-size: 20px;
+    margin-left:80px;
+    margin-right:80px;
+    
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:2px 2px 5px green;
+    color:rgb(9, 66, 9);
+    margin-left: 70px;   
+}
+.card{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9RQlE4k6gLLM3j4iIQ1byltGjagKXyJuWUQ&usqp=CAU");
+}
+h4{
+    color: red;
+}

@@ -1,0 +1,41 @@
+marquee
+{
+  margin-top: 1rem;
+  background-color: purple;
+  color:whitesmoke;
+  font-size: 25px;
+  border: solid 5px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Add spacing between logo and text */
+}
+#reg
+{
+    padding-left: 40rem;
+}
+.home{
+    background-image:url("https://www.graceonline.in/uploads/Home-page-banner/2023/11/17/summer-offer01700214361.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    height:400px;
+    margin: 3rem;
+  padding: 2rem; 
+}
+.footer
+{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 50px;
+    background-color:black;
+    text-align: center;
+    color: white;
+}

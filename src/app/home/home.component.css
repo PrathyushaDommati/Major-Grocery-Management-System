@@ -1,0 +1,17 @@
+.home{
+    background-image:url("https://t4.ftcdn.net/jpg/05/38/97/35/360_F_538973578_GH1nNnveE6XFrEVY2HvzrcEIimt48kDN.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    height:400px;
+    margin: 3rem;
+  padding: 2rem; 
+}
+marquee
+{
+  margin-top: 1rem;
+  background-color: purple;
+  color:whitesmoke;
+  font-size: 25px;
+  border: solid 5px;
+}

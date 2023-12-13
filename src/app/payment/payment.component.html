@@ -1,0 +1,99 @@
+
+<!--table>
+    <tr>
+        <td>
+            <h1 style="color:rgb(15, 15, 15)">Choose Your Payment Option</h1>
+        </td>
+       
+    </tr>
+</table>
+<div class="pay">
+<table >
+    <tr>
+        <td id="td">
+            <img src="https://upipayments.co.in/wp-content/uploads/2020/10/UPI-Apps.png" 
+            height="200" width="200" type="button"(click)="upi()">
+            UPI Payment
+       
+        <td id="td">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa-fu23zRV_B-BGYF0_8P9GSPnf-ajFm4YCZ3hG8t8py1qrnpNOZqJ1jwk9ibVbCpKZLI&usqp=CAU" 
+            height="200" width="200" type="button"(click)="cod()" >
+            Cash On Delivery
+        </td>
+    </tr>
+</table-->
+
+<!--body>
+
+    <div class="container">
+    
+    <h1 class="">Registration Page</h1>
+    
+    <form (ngSubmit)="f.form.valid&&OnSubmit()" #f="ngForm" novalidate>
+    <table class="container">
+    <tr>
+    <td>
+    <label for="un">First Name : </label>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <input type="text" id="un" name="un" placeholder="First Name" pattern="[a-zA-Z0-9]+" minlength="3" [(ngModel)]="customer.firstname" required #firstname="ngModel" ><br><br>
+    <span class="text-danger" *ngIf="this.submit&&firstname.errors?.['required']">
+        <p>First Name is required</p>
+    </span>
+    <span class="text-danger" *ngIf="this.submit&&firstname.errors?.['pattern']">
+        <p>First Name Should contains only letters and numbers</p>
+    </span>
+    <span class="text-danger" *ngIf="this.submit&&firstname.errors?.['minlength']">
+        <p>First Name required min 3 letters</p>
+    </span>
+    </td></tr><br>
+    <tr>
+    <td>
+    <label for="el">Email : </label>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <input type="email" id="el" name="el" placeholder="Email" [(ngModel)]="customer.email" required email #email="ngModel"><br><br>
+    <span class="text-danger" *ngIf="this.submit&&email.errors?.['required']">
+        <p>Email is required</p>
+    </span>
+    <span class="text-danger" *ngIf="this.submit&&email.errors?.['email']">
+        Email must be in format
+    </span>
+    </td></tr><br>
+    <tr>
+    <td>
+    <label for="pw">PassWord  : </label>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <input type="password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,}$" id="pw" minlength="8" name="pw" placeholder="customer.password" [(ngModel)]="password"required #password="ngModel" #p1 (keydown)="0"><br><br>
+    <span class="text-danger" *ngIf="this.submit&&password.errors?.['required']">
+        <p>Pleace Enter Password</p>
+    </span>
+    <span class="text-danger" *ngIf="this.submit&&password.errors?.['pattern']">
+        <p>Password must want to collection of numbers,symbols,letters</p>
+    </span>
+    <span class="text-danger" *ngIf="this.submit&&password.errors?.['minlength']">
+        <p>Password required min 8 charecter length</p>
+    </span>
+    </td></tr><br>
+    
+    <tr>
+    <td>
+    <input type="submit" class="btn btn-primary"value="Register" (click)="submit=true"/>
+    </td>
+    <td>
+    <button class="btn btn-success">Login</button>
+    </td></tr>
+    </table>
+    </form>
+    
+    </div>
+    
+    </body-->
+    
